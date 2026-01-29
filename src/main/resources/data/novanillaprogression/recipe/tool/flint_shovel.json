@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "novanillaprogression:flint_shard"
+    },
+    "Y": {
+      "item": "novanillaprogression:plant_string"
+    }
+  },
+  "pattern": [
+    " XX",
+    " YX",
+    "#  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "novanillaprogression:flint_shovel"
+  }
+}

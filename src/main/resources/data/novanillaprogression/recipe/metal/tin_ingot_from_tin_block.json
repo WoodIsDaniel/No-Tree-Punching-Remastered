@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "iron_ingot",
+  "ingredients": [
+    {
+      "item": "novanillaprogression:tin_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "novanillaprogression:tin_ingot"
+  }
+}

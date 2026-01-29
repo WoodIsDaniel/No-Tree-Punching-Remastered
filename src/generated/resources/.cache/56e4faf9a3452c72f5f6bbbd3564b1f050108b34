@@ -1,0 +1,11 @@
+// 1.21.1	2026-01-08T21:46:12.0751869	Tags for minecraft:item mod id novanillaprogression
+403b1bb03696c810a2c1577415c16f9ef01fe5fc data/c/tags/item/ingots/bronze.json
+46e0a124163e582de8dae33a1c9a755ef6819f72 data/c/tags/item/ingots/tin.json
+7407378e84964f3dbe20d43c9c300b8b4ddb52ce data/c/tags/item/tools/axes.json
+9e10ef59c6f6988d78e4e5d067c10200f57612c5 data/c/tags/item/tools/knives.json
+40e249ba88675796b7d9f77bb6b5fba0ef163aac data/c/tags/item/tools/saws.json
+6f4a440c0b700875506f8d1ff7793543daad7155 data/minecraft/tags/item/axes.json
+e409fae42fc51d5aa9e72fae0befb5bf7bdc46b5 data/minecraft/tags/item/hoes.json
+353a1dbb7d0fd3b5ae7f0136ceb01d3706a53ac7 data/minecraft/tags/item/pickaxes.json
+8c93620806ecf73e938d111f746e39b12c7fd3ab data/minecraft/tags/item/shovels.json
+ff4c0c2f81805f78a6781d62349cf1b21387eeb4 data/minecraft/tags/item/swords.json

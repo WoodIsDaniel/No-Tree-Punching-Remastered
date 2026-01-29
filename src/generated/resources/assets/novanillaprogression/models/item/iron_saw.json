@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "novanillaprogression:item/tool/iron_saw"
+  }
+}

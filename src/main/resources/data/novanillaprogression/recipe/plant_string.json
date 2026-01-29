@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "novanillaprogression:grass_fiber"
+    },
+    {
+      "item": "novanillaprogression:grass_fiber"
+    },
+    {
+      "item": "novanillaprogression:grass_fiber"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "novanillaprogression:plant_string"
+  }
+}

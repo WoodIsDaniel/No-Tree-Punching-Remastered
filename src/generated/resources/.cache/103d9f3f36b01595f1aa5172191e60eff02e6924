@@ -1,0 +1,4 @@
+// 1.21.1	2026-01-08T21:46:12.0772656	Registries
+21e37ff6ff0503469877f57bc1ee790cad4f8e92 data/novanillaprogression/neoforge/biome_modifier/add_tin_ore.json
+7f9dc05645276521cca14d4a2742294f2ee807da data/novanillaprogression/worldgen/configured_feature/tin_ore.json
+5ee69e37c6d32cc44374bae3308b3714f0f130ca data/novanillaprogression/worldgen/placed_feature/tin_ore_placed.json

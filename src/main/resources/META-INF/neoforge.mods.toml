@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT License"
+
+[[mods]]
+modId="novanillaprogression"
+version="2.0.3"
+displayName="No Vanilla Progression"
+authors="WoodIsDaniel"
+description='''
+No Vanilla Progression for 1.21.1.
+Batteries not included.
+'''
+logoFile="icon.png"
+
+
+# Dependency for Minecraft
+[[dependencies.woodiessurvival]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1, 1.22)"
+ordering="AFTER"
+side="BOTH"
+
+# Dependency for Neoforge
+[[dependencies.woodiessurvival]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.215,)"
+ordering="AFTER"
+side="BOTH"
