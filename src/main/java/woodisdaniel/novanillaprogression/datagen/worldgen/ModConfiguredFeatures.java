@@ -1,4 +1,4 @@
-package novanillaprogression.datagen.worldgen;
+package woodisdaniel.novanillaprogression.datagen.worldgen;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
@@ -11,8 +11,8 @@ import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfigur
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
 import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
-import novanillaprogression.NoVanillaProgression;
-import novanillaprogression.common.block.ModBlocks;
+import woodisdaniel.novanillaprogression.NoVanillaProgression;
+import woodisdaniel.novanillaprogression.common.block.ModBlocks;
 
 import java.util.List;
 

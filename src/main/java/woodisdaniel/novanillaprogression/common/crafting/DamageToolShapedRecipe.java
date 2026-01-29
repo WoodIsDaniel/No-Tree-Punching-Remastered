@@ -1,4 +1,4 @@
-package novanillaprogression.common.crafting;
+package woodisdaniel.novanillaprogression.common.crafting;
 
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;

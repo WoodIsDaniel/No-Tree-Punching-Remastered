@@ -1,6 +1,6 @@
-package novanillaprogression.datagen.util;
+package woodisdaniel.novanillaprogression.datagen.util;
 
-import novanillaprogression.NoVanillaProgression;
+import woodisdaniel.novanillaprogression.NoVanillaProgression;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;

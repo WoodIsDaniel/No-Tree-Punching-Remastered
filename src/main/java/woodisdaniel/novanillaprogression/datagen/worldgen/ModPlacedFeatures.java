@@ -1,4 +1,4 @@
-package novanillaprogression.datagen.worldgen;
+package woodisdaniel.novanillaprogression.datagen.worldgen;
 
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.Registries;
@@ -10,7 +10,7 @@ import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.placement.HeightRangePlacement;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.placement.PlacementModifier;
-import novanillaprogression.NoVanillaProgression;
+import woodisdaniel.novanillaprogression.NoVanillaProgression;
 
 import java.util.List;
 

@@ -1,8 +1,8 @@
-package novanillaprogression.datagen;
+package woodisdaniel.novanillaprogression.datagen;
 
-import novanillaprogression.datagen.worldgen.ModBiomeModifiers;
-import novanillaprogression.datagen.worldgen.ModConfiguredFeatures;
-import novanillaprogression.datagen.worldgen.ModPlacedFeatures;
+import woodisdaniel.novanillaprogression.datagen.worldgen.ModBiomeModifiers;
+import woodisdaniel.novanillaprogression.datagen.worldgen.ModConfiguredFeatures;
+import woodisdaniel.novanillaprogression.datagen.worldgen.ModPlacedFeatures;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.core.registries.Registries;
@@ -10,7 +10,7 @@ import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.DatapackBuiltinEntriesProvider;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
 
-import novanillaprogression.NoVanillaProgression;
+import woodisdaniel.novanillaprogression.NoVanillaProgression;
 
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;

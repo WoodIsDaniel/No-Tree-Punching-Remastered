@@ -1,4 +1,4 @@
-package novanillaprogression.common.block;
+package woodisdaniel.novanillaprogression.common.block;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -8,8 +8,8 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import novanillaprogression.NoVanillaProgression;
-import novanillaprogression.common.item.ModItems;
+import woodisdaniel.novanillaprogression.NoVanillaProgression;
+import woodisdaniel.novanillaprogression.common.item.ModItems;
 
 import java.util.function.Supplier;
 

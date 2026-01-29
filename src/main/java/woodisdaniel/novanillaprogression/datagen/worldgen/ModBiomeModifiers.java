@@ -1,4 +1,4 @@
-package novanillaprogression.datagen.worldgen;
+package woodisdaniel.novanillaprogression.datagen.worldgen;
 
 import net.minecraft.core.HolderSet;
 import net.minecraft.core.registries.Registries;
@@ -10,7 +10,7 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.neoforged.neoforge.common.world.BiomeModifier;
 import net.neoforged.neoforge.common.world.BiomeModifiers;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
-import novanillaprogression.NoVanillaProgression;
+import woodisdaniel.novanillaprogression.NoVanillaProgression;
 
 public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_TIN_ORE = registerKey("add_tin_ore");

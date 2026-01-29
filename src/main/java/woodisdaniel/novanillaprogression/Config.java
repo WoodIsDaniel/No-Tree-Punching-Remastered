@@ -1,4 +1,4 @@
-package novanillaprogression;
+package woodisdaniel.novanillaprogression;
 
 import java.util.List;
 

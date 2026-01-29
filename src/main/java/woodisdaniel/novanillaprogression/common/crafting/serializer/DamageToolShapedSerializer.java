@@ -1,4 +1,4 @@
-package novanillaprogression.common.crafting.serializer;
+package woodisdaniel.novanillaprogression.common.crafting.serializer;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
@@ -10,7 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.CraftingBookCategory;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.item.crafting.ShapedRecipePattern;
-import novanillaprogression.common.crafting.DamageToolShapedRecipe;
+import woodisdaniel.novanillaprogression.common.crafting.DamageToolShapedRecipe;
 
 public class DamageToolShapedSerializer implements RecipeSerializer<DamageToolShapedRecipe> {
 

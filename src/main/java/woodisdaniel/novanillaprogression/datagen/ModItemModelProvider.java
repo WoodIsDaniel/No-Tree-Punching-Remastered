@@ -1,7 +1,7 @@
-package novanillaprogression.datagen;
+package woodisdaniel.novanillaprogression.datagen;
 
-import novanillaprogression.NoVanillaProgression;
-import novanillaprogression.common.item.ModItems;
+import woodisdaniel.novanillaprogression.NoVanillaProgression;
+import woodisdaniel.novanillaprogression.common.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;

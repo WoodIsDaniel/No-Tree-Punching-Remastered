@@ -1,4 +1,4 @@
-package novanillaprogression.datagen.worldgen;
+package woodisdaniel.novanillaprogression.datagen.worldgen;
 
 import net.minecraft.world.level.levelgen.placement.*;
 

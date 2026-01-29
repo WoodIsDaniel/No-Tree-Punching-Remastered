@@ -1,4 +1,4 @@
-package novanillaprogression.common.crafting;
+package woodisdaniel.novanillaprogression.common.crafting;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.crafting.RecipeType;
@@ -6,8 +6,8 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.minecraft.world.item.crafting.RecipeSerializer;
-import novanillaprogression.NoVanillaProgression;
-import novanillaprogression.common.crafting.serializer.DamageToolShapedSerializer;
+import woodisdaniel.novanillaprogression.NoVanillaProgression;
+import woodisdaniel.novanillaprogression.common.crafting.serializer.DamageToolShapedSerializer;
 
 public class ModRecipeTypes {
     public static final DeferredRegister<RecipeSerializer<?>> SERIALIZERS =

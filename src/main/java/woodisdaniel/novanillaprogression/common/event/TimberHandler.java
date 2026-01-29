@@ -1,4 +1,4 @@
-package novanillaprogression.common.event;
+package woodisdaniel.novanillaprogression.common.event;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
@@ -9,7 +9,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
-import novanillaprogression.NoVanillaProgression;
+import woodisdaniel.novanillaprogression.NoVanillaProgression;
 
 @EventBusSubscriber(modid = NoVanillaProgression.MOD_ID)
 public class TimberHandler {

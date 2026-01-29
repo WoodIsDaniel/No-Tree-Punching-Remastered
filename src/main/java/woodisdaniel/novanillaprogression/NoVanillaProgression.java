@@ -1,4 +1,4 @@
-package novanillaprogression;
+package woodisdaniel.novanillaprogression;
 
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
@@ -18,10 +18,10 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
-import novanillaprogression.common.crafting.ModRecipeTypes;
-import novanillaprogression.common.block.ModBlocks;
-import novanillaprogression.common.ModCreativeModeTabs;
-import novanillaprogression.common.item.ModItems;
+import woodisdaniel.novanillaprogression.common.crafting.ModRecipeTypes;
+import woodisdaniel.novanillaprogression.common.block.ModBlocks;
+import woodisdaniel.novanillaprogression.common.ModCreativeModeTabs;
+import woodisdaniel.novanillaprogression.common.item.ModItems;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(NoVanillaProgression.MOD_ID)

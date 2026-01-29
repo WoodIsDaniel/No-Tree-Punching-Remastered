@@ -1,15 +1,15 @@
-package novanillaprogression.datagen;
+package woodisdaniel.novanillaprogression.datagen;
 
 import net.minecraft.world.level.block.Blocks;
-import novanillaprogression.NoVanillaProgression;
-import novanillaprogression.common.block.ModBlocks;
+import woodisdaniel.novanillaprogression.NoVanillaProgression;
+import woodisdaniel.novanillaprogression.common.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
-import novanillaprogression.datagen.util.ModTags;
+import woodisdaniel.novanillaprogression.datagen.util.ModTags;
 
 import java.util.concurrent.CompletableFuture;
 

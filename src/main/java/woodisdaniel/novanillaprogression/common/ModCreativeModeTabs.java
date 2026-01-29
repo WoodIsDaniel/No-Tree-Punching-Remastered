@@ -1,4 +1,4 @@
-package novanillaprogression.common;
+package woodisdaniel.novanillaprogression.common;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -6,10 +6,10 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import novanillaprogression.NoVanillaProgression;
+import woodisdaniel.novanillaprogression.NoVanillaProgression;
 import net.minecraft.world.item.Items;
-import novanillaprogression.common.block.ModBlocks;
-import novanillaprogression.common.item.ModItems;
+import woodisdaniel.novanillaprogression.common.block.ModBlocks;
+import woodisdaniel.novanillaprogression.common.item.ModItems;
 
 import java.util.function.Supplier;
 

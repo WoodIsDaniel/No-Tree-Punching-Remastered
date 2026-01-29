@@ -1,7 +1,7 @@
-package novanillaprogression.common.item;
+package woodisdaniel.novanillaprogression.common.item;
 
 import net.minecraft.world.item.Items;
-import novanillaprogression.datagen.util.ModTags;
+import woodisdaniel.novanillaprogression.datagen.util.ModTags;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.neoforged.neoforge.common.SimpleTier;

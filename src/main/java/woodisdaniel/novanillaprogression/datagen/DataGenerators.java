@@ -1,6 +1,6 @@
-package novanillaprogression.datagen;
+package woodisdaniel.novanillaprogression.datagen;
 
-import novanillaprogression.NoVanillaProgression;
+import woodisdaniel.novanillaprogression.NoVanillaProgression;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
