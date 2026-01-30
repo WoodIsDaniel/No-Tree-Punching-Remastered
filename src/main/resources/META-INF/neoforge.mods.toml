@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="novanillaprogression"
-version="2.0.3"
+version="2.0.4"
 displayName="No Vanilla Progression"
 authors="WoodIsDaniel"
 description='''
@@ -15,7 +15,7 @@ logoFile="icon.png"
 
 
 # Dependency for Minecraft
-[[dependencies.woodiessurvival]]
+[[dependencies.novanillaprogression]]
 modId="minecraft"
 type="required"
 versionRange="[1.21.1, 1.22)"
@@ -23,7 +23,7 @@ ordering="AFTER"
 side="BOTH"
 
 # Dependency for Neoforge
-[[dependencies.woodiessurvival]]
+[[dependencies.novanillaprogression]]
 modId="neoforge"
 type="required"
 versionRange="[21.1.215,)"

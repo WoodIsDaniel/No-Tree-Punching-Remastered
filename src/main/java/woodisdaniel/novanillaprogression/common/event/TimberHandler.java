@@ -16,7 +16,14 @@ public class TimberHandler {
 
     private static boolean isLogOrPlank(BlockState state) {
         return state.is(BlockTags.create(ResourceLocation.parse("minecraft:logs"))) ||
-                state.is(BlockTags.create(ResourceLocation.parse("minecraft:planks")));
+                state.is(BlockTags.create(ResourceLocation.parse("minecraft:planks"))) ||
+                state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_slabs"))) ||
+                state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_stairs"))) ||
+                state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_trapdoors"))) ||
+                state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_pressure_plates"))) ||
+                state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_fences"))) ||
+                state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_doors"))) ||
+                state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_buttons")));
     }
 
     @SubscribeEvent

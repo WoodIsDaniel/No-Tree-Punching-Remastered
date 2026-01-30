@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "conditions": [
         {
           "block": "minecraft:tall_grass",
@@ -30,18 +30,32 @@
           "children": [
             {
               "type": "minecraft:item",
+              "name": "novanillaprogression:grass_fiber",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "items": "minecraft:shears"
+                    "items": "#c:tools/knives"
                   }
+                },
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "ability": "shears_dig",
+                  "condition": "neoforge:can_item_perform_ability"
                 }
               ],
               "functions": [
                 {
                   "add": false,
-                  "count": 2.0,
+                  "count": 2,
                   "function": "minecraft:set_count"
                 }
               ],
@@ -63,10 +77,10 @@
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "conditions": [
         {
           "block": "minecraft:tall_grass",
@@ -94,18 +108,32 @@
           "children": [
             {
               "type": "minecraft:item",
+              "name": "novanillaprogression:grass_fiber",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "items": "minecraft:shears"
+                    "items": "#c:tools/knives"
                   }
+                },
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "ability": "shears_dig",
+                  "condition": "neoforge:can_item_perform_ability"
                 }
               ],
               "functions": [
                 {
                   "add": false,
-                  "count": 2.0,
+                  "count": 2,
                   "function": "minecraft:set_count"
                 }
               ],
@@ -127,7 +155,7 @@
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:blocks/tall_grass"
