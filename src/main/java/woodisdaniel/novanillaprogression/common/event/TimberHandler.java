@@ -23,7 +23,8 @@ public class TimberHandler {
                 state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_pressure_plates"))) ||
                 state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_fences"))) ||
                 state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_doors"))) ||
-                state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_buttons")));
+                state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_buttons"))) ||
+                state.is(BlockTags.create(ResourceLocation.parse("c:wooden_gates")));
     }
 
     @SubscribeEvent

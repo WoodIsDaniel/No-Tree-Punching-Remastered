@@ -1,5 +1,6 @@
 package woodisdaniel.novanillaprogression.datagen;
 
+import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.Items;
 import woodisdaniel.novanillaprogression.NoVanillaProgression;
 import woodisdaniel.novanillaprogression.common.item.ModItems;
@@ -71,6 +72,5 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.FLINT_HOE.get())
                 .add(ModItems.COPPER_HOE.get())
                 .add(ModItems.BRONZE_HOE.get());
-
     }
 }

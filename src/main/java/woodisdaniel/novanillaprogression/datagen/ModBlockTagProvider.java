@@ -42,5 +42,18 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.NEEDS_STONE_TOOL)
                 .remove(Blocks.COPPER_ORE)
                 .remove(Blocks.DEEPSLATE_COPPER_ORE);
+
+        tag(ModTags.Blocks.WOODEN_GATES)
+                .add(Blocks.OAK_FENCE_GATE)
+                .add(Blocks.SPRUCE_FENCE_GATE)
+                .add(Blocks.BIRCH_FENCE_GATE)
+                .add(Blocks.JUNGLE_FENCE_GATE)
+                .add(Blocks.ACACIA_FENCE_GATE)
+                .add(Blocks.DARK_OAK_FENCE_GATE)
+                .add(Blocks.MANGROVE_FENCE_GATE)
+                .add(Blocks.CHERRY_FENCE_GATE)
+                .add(Blocks.BAMBOO_FENCE_GATE)
+                .add(Blocks.CRIMSON_FENCE_GATE)
+                .add(Blocks.WARPED_FENCE_GATE);
     }
 }

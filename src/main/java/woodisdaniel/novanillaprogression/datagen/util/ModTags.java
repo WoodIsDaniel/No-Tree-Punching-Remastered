@@ -1,5 +1,6 @@
 package woodisdaniel.novanillaprogression.datagen.util;
 
+import net.neoforged.neoforge.common.Tags;
 import woodisdaniel.novanillaprogression.NoVanillaProgression;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
@@ -14,6 +15,9 @@ public class ModTags {
         public static final TagKey<Block> INCORRECT_FOR_FLINT_TOOL = createTag("incorrect_for_flint_tool");
         public static final TagKey<Block> INCORRECT_FOR_COPPER_TOOL = createTag("incorrect_for_copper_tool");
         public static final TagKey<Block> INCORRECT_FOR_BRONZE_TOOL = createTag("incorrect_for_bronze_tool");
+
+        public static final TagKey<Block> WOODEN_GATES =
+                BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "wooden_gates"));
 
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(NoVanillaProgression.MOD_ID, name));
