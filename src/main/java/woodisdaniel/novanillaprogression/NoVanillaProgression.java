@@ -4,6 +4,7 @@ import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -21,7 +22,10 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import woodisdaniel.novanillaprogression.common.crafting.ModRecipeTypes;
 import woodisdaniel.novanillaprogression.common.block.ModBlocks;
 import woodisdaniel.novanillaprogression.common.ModCreativeModeTabs;
+import woodisdaniel.novanillaprogression.common.gui.ModMenuTypes;
 import woodisdaniel.novanillaprogression.common.item.ModItems;
+
+import woodisdaniel.novanillaprogression.client.gui.VesselScreen;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(NoVanillaProgression.MOD_ID)
@@ -48,6 +52,8 @@ public class NoVanillaProgression {
 
         ModRecipeTypes.register(modEventBus);
 
+        ModMenuTypes.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -72,13 +78,18 @@ public class NoVanillaProgression {
 
     }
 
-
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
         static void onClientSetup(FMLClientSetupEvent event) {
 
+        }
+
+        // Screen Register
+        @SubscribeEvent
+        public static void registerScreens(RegisterMenuScreensEvent event) {
+            event.register(ModMenuTypes.VESSEL_MENU.get(), VesselScreen::new);
         }
     }
 }

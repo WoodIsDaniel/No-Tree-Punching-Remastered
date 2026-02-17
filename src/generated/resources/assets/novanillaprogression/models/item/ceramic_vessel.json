@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "novanillaprogression:item/ceramic_vessel"
+  }
+}

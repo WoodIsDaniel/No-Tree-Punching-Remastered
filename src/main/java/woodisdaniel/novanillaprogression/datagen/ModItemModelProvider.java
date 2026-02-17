@@ -24,6 +24,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.GRASS_FIBER.get());
         basicItem(ModItems.PLANT_STRING.get());
         basicItem(ModItems.FLINT_SHARD.get());
+        basicItem(ModItems.CLAY_VESSEL.get());
+        basicItem(ModItems.CERAMIC_VESSEL.get());
 
         handheldItem(ModItems.FLINT_PICKAXE);
         handheldItem(ModItems.FLINT_SHOVEL);

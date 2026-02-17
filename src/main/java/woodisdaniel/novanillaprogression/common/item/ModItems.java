@@ -26,6 +26,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> FLINT_SHARD = ITEMS.register("flint_shard",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CLAY_VESSEL = ITEMS.register("clay_vessel",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CERAMIC_VESSEL = ITEMS.register("ceramic_vessel",
+            () -> new VesselItem(new Item.Properties()));
 
     public static final DeferredItem<PickaxeItem> FLINT_PICKAXE = ITEMS.register("flint_pickaxe",
             () -> new PickaxeItem(ModToolTiers.FLINT, new Item.Properties()

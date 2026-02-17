@@ -1,4 +1,4 @@
-// 1.21.1	2026-01-30T21:53:21.4080524	Item Models: novanillaprogression
+// 1.21.1	2026-02-09T21:24:54.3392474	Item Models: novanillaprogression
 e9d364ca0f8c99163955bbd9ac4863a88ce398d6 assets/novanillaprogression/models/item/bronze_axe.json
 b97d2c9ee0d292019d8965291ac079a370dc4421 assets/novanillaprogression/models/item/bronze_hoe.json
 ed008e5be3341b33c432bc68d646a6ced8ec99eb assets/novanillaprogression/models/item/bronze_ingot.json
@@ -8,6 +8,8 @@ f3ee4b74ebd82e18c225c750028f4130bc95fb51 assets/novanillaprogression/models/item
 8d95f96b523011f4d9a107563c8eedaf67e4aa28 assets/novanillaprogression/models/item/bronze_saw.json
 85d0faed0d3e3d9bae61caaf43a49b7cdac748ec assets/novanillaprogression/models/item/bronze_shovel.json
 88e8f703f11c7ee803a1453800ce5af5e67712c4 assets/novanillaprogression/models/item/bronze_sword.json
+6137e7720e84c72c5d2ae4b780a0d567ee3f3bff assets/novanillaprogression/models/item/ceramic_vessel.json
+64918cc8c9a120f4d49a8751a3584152ff26be3a assets/novanillaprogression/models/item/clay_vessel.json
 7d705c1fc862ed41bba002f5867aeea05263a5d8 assets/novanillaprogression/models/item/copper_axe.json
 22ecc26960b0c2a9a9a58cf6984d2d978200e5b2 assets/novanillaprogression/models/item/copper_hoe.json
 9cd66ce193cd86918aa2bd61dc985d705b6f20de assets/novanillaprogression/models/item/copper_knife.json

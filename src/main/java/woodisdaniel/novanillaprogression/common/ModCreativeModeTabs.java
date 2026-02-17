@@ -36,6 +36,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PLANT_STRING);
                         output.accept(ModItems.FLINT_SHARD);
 
+                        output.accept(ModItems.CLAY_VESSEL);
+                        output.accept(ModItems.CERAMIC_VESSEL);
+
                     }).build());
 
     public static final Supplier<CreativeModeTab> NOVAILLAPROGRESSION_TOOLS_TAB = CREATIVE_MODE_TAB.register("novanillaprogression_tools_tab",
