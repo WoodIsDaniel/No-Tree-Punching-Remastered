@@ -1,8 +1,8 @@
 {
   "type": "minecraft:smelting",
-  "category": "misc",
+  "category": "pottery",
   "cookingtime": 200,
-  "experience": 0.7,
+  "experience": 0.35,
   "group": "cermaic_vessel",
   "ingredient": {
     "item": "novanillaprogression:clay_vessel"

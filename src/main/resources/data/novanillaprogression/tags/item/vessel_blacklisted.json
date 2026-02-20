@@ -19,9 +19,12 @@
     "minecraft:purple_shulker_box",
     "minecraft:magenta_shulker_box",
     "minecraft:pink_shulker_box",
-
     {
       "id": "immersiveengineering:crate",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:reinforced_crate",
       "required": false
     }
   ]

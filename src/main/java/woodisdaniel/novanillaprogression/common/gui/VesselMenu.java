@@ -81,7 +81,7 @@ public class VesselMenu extends AbstractContainerMenu {
         addSlot(new SlotItemHandler(itemHandler, index, x, y) {
             @Override
             public boolean mayPlace(ItemStack stack) {
-                // This handles Drag and Drop validation
+
                 return isItemAllowedInVessel(stack) && super.mayPlace(stack);
             }
         });
