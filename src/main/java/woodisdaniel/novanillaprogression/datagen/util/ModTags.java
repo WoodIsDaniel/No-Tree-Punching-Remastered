@@ -8,6 +8,7 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import woodisdaniel.novanillaprogression.common.gui.VesselMenu;
 
 public class ModTags {
     public static class Blocks {
@@ -36,5 +37,10 @@ public class ModTags {
                 ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tools/saws"));
         public static final TagKey<Item> AXES =
                 ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tools/axes"));
+
+        public static final TagKey<Item> VESSEL_BLACKLISTED = TagKey.create(
+                net.minecraft.core.registries.Registries.ITEM,
+                net.minecraft.resources.ResourceLocation.fromNamespaceAndPath("novanillaprogression", "vessel_blacklisted")
+        );
     }
 }

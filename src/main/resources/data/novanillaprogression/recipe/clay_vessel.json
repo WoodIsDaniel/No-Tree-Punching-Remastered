@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "pattern": [
+    " # ",
+    "# #",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "novanillaprogression:clay_vessel"
+  }
+}

@@ -12,6 +12,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.component.CustomData;
 import net.neoforged.neoforge.items.ItemStackHandler;
 import net.neoforged.neoforge.items.SlotItemHandler;
+import woodisdaniel.novanillaprogression.datagen.util.ModTags;
 
 public class VesselMenu extends AbstractContainerMenu {
     private static final int CONTAINER_SIZE = 4;
@@ -43,10 +44,10 @@ public class VesselMenu extends AbstractContainerMenu {
         int startX = 71;
         int startY = 23;
 
-        addSlot(new SlotItemHandler(itemHandler, 0, startX, startY));
-        addSlot(new SlotItemHandler(itemHandler, 1, startX + 18, startY));
-        addSlot(new SlotItemHandler(itemHandler, 2, startX, startY + 18));
-        addSlot(new SlotItemHandler(itemHandler, 3, startX + 18, startY + 18));
+        addVesselSlot(0, startX, startY);
+        addVesselSlot(1, startX + 18, startY);
+        addVesselSlot(2, startX, startY + 18);
+        addVesselSlot(3, startX + 18, startY + 18);
 
 
         // Player Inventory
@@ -56,10 +57,40 @@ public class VesselMenu extends AbstractContainerMenu {
             }
         }
 
-        // Player Hotbar
+// Player Hotbar
+
         for (int col = 0; col < 9; col++) {
-            addSlot(new Slot(playerInv, col, 8 + col * 18, 142));
+            final int slotIndex = col;
+
+            addSlot(new Slot(playerInv, col, 8 + col * 18, 142) {
+                @Override
+                public boolean mayPickup(Player playerIn) {
+                    boolean isHandSlot = (slotIndex == playerInv.selected);
+
+                    if (isHandSlot && ItemStack.matches(getItem(), VesselMenu.this.vesselStack)) {
+                        return false;
+                    }
+
+                    return true;
+                }
+            });
         }
+    }
+
+    private void addVesselSlot(int index, int x, int y) {
+        addSlot(new SlotItemHandler(itemHandler, index, x, y) {
+            @Override
+            public boolean mayPlace(ItemStack stack) {
+                // This handles Drag and Drop validation
+                return isItemAllowedInVessel(stack) && super.mayPlace(stack);
+            }
+        });
+    }
+
+    private boolean isItemAllowedInVessel(ItemStack stack) {
+        if (stack.is(ModTags.Items.VESSEL_BLACKLISTED)) return false;
+
+        return true;
     }
 
     private void loadDataFromStack() {
@@ -87,6 +118,7 @@ public class VesselMenu extends AbstractContainerMenu {
             ItemStack slotStack = slot.getItem();
             sourceStack = slotStack.copy();
 
+            // Moving from Vessel to Inventory
             if (index < CONTAINER_SIZE) {
                 if (!this.moveItemStackTo(slotStack, CONTAINER_SIZE, 36 + CONTAINER_SIZE, true)) {
                     return ItemStack.EMPTY;
@@ -94,6 +126,11 @@ public class VesselMenu extends AbstractContainerMenu {
             }
 
             else {
+                // Check allowed items
+                if (!isItemAllowedInVessel(slotStack)) {
+                    return ItemStack.EMPTY;
+                }
+
                 if (!this.moveItemStackTo(slotStack, 0, CONTAINER_SIZE, false)) {
                     return ItemStack.EMPTY;
                 }

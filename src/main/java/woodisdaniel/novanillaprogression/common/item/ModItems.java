@@ -27,7 +27,8 @@ public class ModItems {
     public static final DeferredItem<Item> FLINT_SHARD = ITEMS.register("flint_shard",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CLAY_VESSEL = ITEMS.register("clay_vessel",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties()
+                    .stacksTo(1)));
     public static final DeferredItem<Item> CERAMIC_VESSEL = ITEMS.register("ceramic_vessel",
             () -> new VesselItem(new Item.Properties()));
 
