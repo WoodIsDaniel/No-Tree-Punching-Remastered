@@ -1,4 +1,4 @@
-// 1.21.1	2026-01-30T22:38:49.8020902	Registries
-21e37ff6ff0503469877f57bc1ee790cad4f8e92 data/novanillaprogression/neoforge/biome_modifier/add_tin_ore.json
-7f9dc05645276521cca14d4a2742294f2ee807da data/novanillaprogression/worldgen/configured_feature/tin_ore.json
-c708135bcc19408e3c2b78cfbf3248d85f156b91 data/novanillaprogression/worldgen/placed_feature/tin_ore_placed.json
+// 1.21.1	2026-06-01T13:39:16.446528	Registries
+615f7296c1ce66c7a3a95cb480c6b0cb9f1dbe6f data/notreepunchingremastered/neoforge/biome_modifier/add_tin_ore.json
+0432f4c7bf02bb7c850a7d39c74eb95c00ceccf3 data/notreepunchingremastered/worldgen/configured_feature/tin_ore.json
+00cca23a214c671cfb33cbdaf23b16abbebf20ec data/notreepunchingremastered/worldgen/placed_feature/tin_ore_placed.json

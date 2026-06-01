@@ -3,7 +3,7 @@ loaderVersion="[1,)"
 license="GPL-3.0 License"
 
 [[mods]]
-modId="novanillaprogression"
+modId="notreepunchingremastered"
 version="1.0"
 displayName="No Tree Punching Remastered"
 authors="WoodIsDaniel"
@@ -15,7 +15,7 @@ logoFile="icon.png"
 
 
 # Dependency for Minecraft
-[[dependencies.novanillaprogression]]
+[[dependencies.notreepunchingremastered]]
 modId="minecraft"
 type="required"
 versionRange="[1.21, 1.21.1)"
@@ -23,7 +23,7 @@ ordering="AFTER"
 side="BOTH"
 
 # Dependency for Neoforge
-[[dependencies.novanillaprogression]]
+[[dependencies.notreepunchingremastered]]
 modId="neoforge"
 type="required"
 versionRange="[21.0.167,)"

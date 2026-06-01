@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "notreepunchingremastered:grass_fiber"
+    },
+    {
+      "item": "notreepunchingremastered:grass_fiber"
+    },
+    {
+      "item": "notreepunchingremastered:grass_fiber"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "notreepunchingremastered:plant_string"
+  }
+}

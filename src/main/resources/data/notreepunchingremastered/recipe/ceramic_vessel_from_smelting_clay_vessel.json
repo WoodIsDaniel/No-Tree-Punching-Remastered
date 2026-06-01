@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "pottery",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "group": "cermaic_vessel",
+  "ingredient": {
+    "item": "notreepunchingremastered:clay_vessel"
+  },
+  "result": {
+    "id": "notreepunchingremastered:ceramic_vessel"
+  }
+}

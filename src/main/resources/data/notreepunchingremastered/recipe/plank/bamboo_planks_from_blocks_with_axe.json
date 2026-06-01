@@ -1,0 +1,20 @@
+{
+  "type": "notreepunchingremastered:damage_tool_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:tools/axes"
+    },
+    "X": {
+      "tag": "minecraft:bamboo_blocks"
+    }
+  },
+  "pattern": [
+    "#",
+    "X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:bamboo_planks"
+  }
+}

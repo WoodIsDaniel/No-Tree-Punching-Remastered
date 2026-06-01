@@ -1,7 +1,0 @@
-// 1.21.1	2026-01-30T21:53:21.4080524	Tags for minecraft:block mod id novanillaprogression
-4b3fec6d60174c9cbb1d0050f1838a502d98fa31 data/c/tags/block/wooden_gates.json
-98ae5f321fb778a51d07b860577af54fe30ef486 data/minecraft/tags/block/mineable/pickaxe.json
-8354851657b5a4483b70d3275d60ac021f81c0ce data/minecraft/tags/block/needs_stone_tool.json
-3ff1ac59669ee466af5731a39213afee8aeeb915 data/novanillaprogression/tags/block/incorrect_for_bronze_tool.json
-3ff1ac59669ee466af5731a39213afee8aeeb915 data/novanillaprogression/tags/block/incorrect_for_copper_tool.json
-692e5e8079060e4fa82d274ffd9cb805360b550a data/novanillaprogression/tags/block/incorrect_for_flint_tool.json

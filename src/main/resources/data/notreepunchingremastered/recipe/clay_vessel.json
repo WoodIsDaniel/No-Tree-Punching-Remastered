@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "pottery",
+  "key": {
+    "#": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "pattern": [
+    " # ",
+    "# #",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "notreepunchingremastered:clay_vessel"
+  }
+}

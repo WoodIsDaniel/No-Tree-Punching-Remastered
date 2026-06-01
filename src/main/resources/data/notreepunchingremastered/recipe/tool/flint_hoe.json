@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "notreepunchingremastered:flint_shard"
+    },
+    "Y": {
+      "item": "notreepunchingremastered:plant_string"
+    }
+  },
+  "pattern": [
+    "YXX",
+    "#  ",
+    "#  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "notreepunchingremastered:flint_hoe"
+  }
+}

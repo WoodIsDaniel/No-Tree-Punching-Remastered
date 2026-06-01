@@ -1,10 +1,8 @@
 {
   "values": [
-    "novanillaprogression:flint_axe",
-    "novanillaprogression:copper_axe",
-    "novanillaprogression:bronze_axe",
-    "novanillaprogression:copper_saw",
-    "novanillaprogression:bronze_saw",
-    "novanillaprogression:iron_saw"
+    "notreepunchingremastered:flint_axe",
+    "notreepunchingremastered:copper_axe",
+    "notreepunchingremastered:copper_saw",
+    "notreepunchingremastered:iron_saw"
   ]
 }

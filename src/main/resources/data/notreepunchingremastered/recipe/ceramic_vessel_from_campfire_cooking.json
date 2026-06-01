@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "pottery",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "notreepunchingremastered:clay_vessel"
+  },
+  "result": {
+    "id": "notreepunchingremastered:ceramic_vessel"
+  }
+}

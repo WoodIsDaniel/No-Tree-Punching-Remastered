@@ -30,7 +30,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "novanillaprogression:grass_fiber",
+              "name": "notreepunchingremastered:grass_fiber",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -108,7 +108,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "novanillaprogression:grass_fiber",
+              "name": "notreepunchingremastered:grass_fiber",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
