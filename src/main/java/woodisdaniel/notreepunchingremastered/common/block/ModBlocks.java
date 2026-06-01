@@ -26,7 +26,13 @@ public class ModBlocks {
                     .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
     public static final DeferredBlock<Block> STONE_ROCK = registerBlock("stone_rock",
-            () -> new LooseRocks(BlockBehaviour.Properties.of().noOcclusion()));
+            () -> new LooseRocks(BlockBehaviour.Properties.of().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> SANDSTONE_ROCK = registerBlock("sandstone_rock",
+            () -> new LooseRocks(BlockBehaviour.Properties.of().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> RED_SANDSTONE_ROCK = registerBlock("red_sandstone_rock",
+            () -> new LooseRocks(BlockBehaviour.Properties.of().sound(SoundType.STONE)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock (String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

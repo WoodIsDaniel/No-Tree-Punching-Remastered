@@ -18,11 +18,15 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> NOTREEPUNCHING_MISC_TAB = CREATIVE_MODE_TAB.register("notreepunching_misc_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.GRASS_FIBER.get()))
-                    .title(Component.translatable("creativetab.notreepunching.notreepunching_misc_items"))
+                    .title(Component.translatable("creativetab.notreepunchingremastered.notreepunching_misc_items"))
                     .displayItems((itemDisplayParameters, output) -> {
 
                         output.accept(ModBlocks.TIN_ORE);
                         output.accept(ModBlocks.DEEPSLATE_TIN_ORE);
+
+                        output.accept(ModBlocks.STONE_ROCK);
+                        output.accept(ModBlocks.SANDSTONE_ROCK);
+                        output.accept(ModBlocks.RED_SANDSTONE_ROCK);
 
                         output.accept(ModItems.GRASS_FIBER);
                         output.accept(ModItems.PLANT_STRING);
@@ -35,7 +39,7 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> NOTREEPUNCHING_TOOLS_TAB = CREATIVE_MODE_TAB.register("notreepunching_tools_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FLINT_PICKAXE.get()))
-                    .title(Component.translatable("creativetab.notreepunching.notreepunching_tool_items"))
+                    .title(Component.translatable("creativetab.notreepunchingremastered.notreepunching_tool_items"))
                     .displayItems((itemDisplayParameters, output) -> {
 
                         output.accept(ModItems.FLINT_PICKAXE);

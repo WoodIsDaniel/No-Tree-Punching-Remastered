@@ -1,6 +1,6 @@
 {
-  "creativetab.notreepunching.notreepunching_misc_items": "NTP Misc",
-  "creativetab.notreepunching.notreepunching_tool_items": "NTP Tools",
+  "creativetab.notreepunchingremastered.notreepunching_misc_items": "NTP Misc",
+  "creativetab.notreepunchingremastered.notreepunching_tool_items": "NTP Tools",
   "item.notreepunchingremastered.grass_fiber": "Grass Fiber",
   "item.notreepunchingremastered.plant_string": "Plant String",
   "item.notreepunchingremastered.flint_shard": "Flint Shard",
@@ -19,5 +19,8 @@
   "item.notreepunchingremastered.iron_knife": "Iron Knife",
   "item.notreepunchingremastered.iron_saw": "Iron Saw",
   "item.notreepunchingremastered.clay_vessel": "Clay Vessel",
-  "item.notreepunchingremastered.ceramic_vessel": "Ceramic Vessel"
+  "item.notreepunchingremastered.ceramic_vessel": "Ceramic Vessel",
+  "block.notreepunchingremastered.stone_rock": "Rock",
+  "block.notreepunchingremastered.sandstone_rock": "Sandstone Rock",
+  "block.notreepunchingremastered.red_sandstone_rock": "Red Sandstone Rock"
 }

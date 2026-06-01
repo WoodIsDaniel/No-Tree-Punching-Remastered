@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -26,27 +26,44 @@
                   }
                 }
               ],
-              "name": "notreepunchingremastered:tin_ore"
+              "name": "minecraft:red_sandstone"
             },
             {
               "type": "minecraft:item",
-              "functions": [
+              "name": "notreepunchingremastered:red_sandstone_rock",
+              "conditions": [
                 {
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:ore_drops",
-                  "function": "minecraft:apply_bonus"
-                },
-                {
-                  "function": "minecraft:explosion_decay"
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": "notreepunchingremastered:flint_pickaxe"
+                  }
                 }
               ],
-              "name": "notreepunchingremastered:raw_tin"
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 4
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "name": "minecraft:red_sandstone"
             }
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
-  "random_sequence": "notreepunchingremastered:blocks/tin_ore"
+  "random_sequence": "minecraft:blocks/red_sandstone"
 }
