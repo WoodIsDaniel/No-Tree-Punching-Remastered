@@ -25,6 +25,9 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
+    public static final DeferredBlock<Block> STONE_ROCK = registerBlock("stone_rock",
+            () -> new LooseRocks(BlockBehaviour.Properties.of().noOcclusion()));
+
     private static <T extends Block> DeferredBlock<T> registerBlock (String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
