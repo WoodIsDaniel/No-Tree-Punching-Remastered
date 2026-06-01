@@ -23,24 +23,16 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-        tag(ModTags.Items.TIN_INGOTS)
-                .add(ModItems.TIN_INGOT.get());
-        tag(ModTags.Items.BRONZE_INGOTS)
-                .add(ModItems.BRONZE_INGOT.get());
-
         tag(ModTags.Items.SAWS)
                 .add(ModItems.COPPER_SAW.get())
-                .add(ModItems.BRONZE_SAW.get())
                 .add(ModItems.IRON_SAW.get());
         tag(ModTags.Items.KNIVES)
                 .add(ModItems.FLINT_KNIFE.get())
                 .add(ModItems.COPPER_KNIFE.get())
-                .add(ModItems.BRONZE_KNIFE.get())
                 .add(ModItems.IRON_KNIFE.get());
         tag(ModTags.Items.AXES)
                 .add(ModItems.FLINT_AXE.get())
                 .add(ModItems.COPPER_AXE.get())
-                .add(ModItems.BRONZE_AXE.get())
                 .add(Items.GOLDEN_AXE)
                 .add(Items.IRON_AXE)
                 .add(Items.DIAMOND_AXE)
@@ -48,29 +40,22 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
         tag(ItemTags.SWORDS)
                 .add(ModItems.COPPER_SWORD.get())
-                .add(ModItems.BRONZE_SWORD.get())
                 .add(ModItems.FLINT_KNIFE.get())
                 .add(ModItems.COPPER_KNIFE.get())
-                .add(ModItems.BRONZE_KNIFE.get())
                 .add(ModItems.IRON_KNIFE.get());
         tag(ItemTags.PICKAXES)
                 .add(ModItems.FLINT_PICKAXE.get())
-                .add(ModItems.COPPER_PICKAXE.get())
-                .add(ModItems.BRONZE_PICKAXE.get());
+                .add(ModItems.COPPER_PICKAXE.get());
         tag(ItemTags.AXES)
                 .add(ModItems.FLINT_AXE.get())
                 .add(ModItems.COPPER_AXE.get())
-                .add(ModItems.BRONZE_AXE.get())
                 .add(ModItems.COPPER_SAW.get())
-                .add(ModItems.BRONZE_SAW.get())
                 .add(ModItems.IRON_SAW.get());
         tag(ItemTags.SHOVELS)
                 .add(ModItems.FLINT_SHOVEL.get())
-                .add(ModItems.COPPER_SHOVEL.get())
-                .add(ModItems.BRONZE_SHOVEL.get());
+                .add(ModItems.COPPER_SHOVEL.get());
         tag(ItemTags.HOES)
                 .add(ModItems.FLINT_HOE.get())
-                .add(ModItems.COPPER_HOE.get())
-                .add(ModItems.BRONZE_HOE.get());
+                .add(ModItems.COPPER_HOE.get());
     }
 }

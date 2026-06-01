@@ -15,7 +15,6 @@ public class ModTags {
 
         public static final TagKey<Block> INCORRECT_FOR_FLINT_TOOL = createTag("incorrect_for_flint_tool");
         public static final TagKey<Block> INCORRECT_FOR_COPPER_TOOL = createTag("incorrect_for_copper_tool");
-        public static final TagKey<Block> INCORRECT_FOR_BRONZE_TOOL = createTag("incorrect_for_bronze_tool");
 
         public static final TagKey<Block> WOODEN_GATES =
                 BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "wooden_gates"));
@@ -26,11 +25,6 @@ public class ModTags {
     }
 
     public static class Items {
-        public static final TagKey<Item> TIN_INGOTS =
-                ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ingots/tin"));
-        public static final TagKey<Item> BRONZE_INGOTS =
-                ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ingots/bronze"));
-
         public static final TagKey<Item> KNIVES =
                 ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tools/knives"));
         public static final TagKey<Item> SAWS =
@@ -40,7 +34,7 @@ public class ModTags {
 
         public static final TagKey<Item> VESSEL_BLACKLISTED = TagKey.create(
                 net.minecraft.core.registries.Registries.ITEM,
-                net.minecraft.resources.ResourceLocation.fromNamespaceAndPath("novanillaprogression", "vessel_blacklisted")
+                net.minecraft.resources.ResourceLocation.fromNamespaceAndPath("notreepunching", "vessel_blacklisted")
         );
     }
 }

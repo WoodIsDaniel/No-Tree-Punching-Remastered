@@ -16,11 +16,6 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        metalItem(ModItems.BRONZE_INGOT);
-        metalItem(ModItems.BRONZE_NUGGET);
-        metalItem(ModItems.RAW_TIN);
-        metalItem(ModItems.TIN_INGOT);
-        metalItem(ModItems.TIN_NUGGET);
         basicItem(ModItems.GRASS_FIBER.get());
         basicItem(ModItems.PLANT_STRING.get());
         basicItem(ModItems.FLINT_SHARD.get());
@@ -31,7 +26,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.FLINT_SHOVEL);
         handheldItem(ModItems.FLINT_AXE);
         handheldItem(ModItems.FLINT_HOE);
-
         handheldItem(ModItems.FLINT_KNIFE);
 
         handheldItem(ModItems.COPPER_SWORD);
@@ -39,18 +33,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.COPPER_SHOVEL);
         handheldItem(ModItems.COPPER_AXE);
         handheldItem(ModItems.COPPER_HOE);
-
         handheldItem(ModItems.COPPER_KNIFE);
         handheldItem(ModItems.COPPER_SAW);
-
-        handheldItem(ModItems.BRONZE_SWORD);
-        handheldItem(ModItems.BRONZE_PICKAXE);
-        handheldItem(ModItems.BRONZE_SHOVEL);
-        handheldItem(ModItems.BRONZE_AXE);
-        handheldItem(ModItems.BRONZE_HOE);
-
-        handheldItem(ModItems.BRONZE_KNIFE);
-        handheldItem(ModItems.BRONZE_SAW);
 
         handheldItem(ModItems.IRON_KNIFE);
         handheldItem(ModItems.IRON_SAW);

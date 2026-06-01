@@ -10,16 +10,6 @@ import net.minecraft.world.item.*;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(NoVanillaProgression.MOD_ID);
 
-    public static final DeferredItem<Item> RAW_TIN = ITEMS.register("raw_tin",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> TIN_INGOT = ITEMS.register("tin_ingot",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> TIN_NUGGET = ITEMS.register("tin_nugget",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> BRONZE_NUGGET = ITEMS.register("bronze_nugget",
-            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> GRASS_FIBER = ITEMS.register("grass_fiber",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PLANT_STRING = ITEMS.register("plant_string",
@@ -71,29 +61,6 @@ public class ModItems {
     public static final DeferredItem<HoeItem> COPPER_SAW = ITEMS.register("copper_saw",
             () -> new HoeItem(ModToolTiers.COPPER, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.COPPER, 6.0F, -3.7f))));
-
-    public static final DeferredItem<SwordItem> BRONZE_SWORD = ITEMS.register("bronze_sword",
-            () -> new SwordItem(ModToolTiers.BRONZE, new Item.Properties()
-                    .attributes(SwordItem.createAttributes(ModToolTiers.BRONZE, 3, -2.4f))));
-    public static final DeferredItem<PickaxeItem> BRONZE_PICKAXE = ITEMS.register("bronze_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.BRONZE, new Item.Properties()
-                    .attributes(PickaxeItem.createAttributes(ModToolTiers.BRONZE, 1.0F, -2.8f))));
-    public static final DeferredItem<ShovelItem> BRONZE_SHOVEL = ITEMS.register("bronze_shovel",
-            () -> new ShovelItem(ModToolTiers.BRONZE, new Item.Properties()
-                    .attributes(ShovelItem.createAttributes(ModToolTiers.BRONZE, 1.5F, -3.0f))));
-    public static final DeferredItem<AxeItem> BRONZE_AXE = ITEMS.register("bronze_axe",
-            () -> new AxeItem(ModToolTiers.BRONZE, new Item.Properties()
-                    .attributes(AxeItem.createAttributes(ModToolTiers.BRONZE, 6.0F, -3.2f))));
-    public static final DeferredItem<HoeItem> BRONZE_HOE = ITEMS.register("bronze_hoe",
-            () -> new HoeItem(ModToolTiers.BRONZE, new Item.Properties()
-                    .attributes(HoeItem.createAttributes(ModToolTiers.BRONZE, -1.5F, -1.5f))));
-
-    public static final DeferredItem<AxeItem> BRONZE_KNIFE = ITEMS.register("bronze_knife",
-            () -> new AxeItem(ModToolTiers.BRONZE, new Item.Properties()
-                    .attributes(AxeItem.createAttributes(ModToolTiers.BRONZE, 0.2F, -0.8f))));
-    public static final DeferredItem<HoeItem> BRONZE_SAW = ITEMS.register("bronze_saw",
-            () -> new HoeItem(ModToolTiers.BRONZE, new Item.Properties()
-                    .attributes(HoeItem.createAttributes(ModToolTiers.BRONZE, 6.0F, -3.6f))));
 
     public static final DeferredItem<AxeItem> IRON_KNIFE = ITEMS.register("iron_knife",
             () -> new AxeItem(Tiers.IRON, new Item.Properties()

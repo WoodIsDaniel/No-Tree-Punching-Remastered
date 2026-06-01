@@ -25,14 +25,6 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
-    public static final DeferredBlock<Block> TIN_BLOCK = registerBlock("tin_block",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)));
-
-    public static final DeferredBlock<Block> BRONZE_BLOCK = registerBlock("bronze_block",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)));
-
     private static <T extends Block> DeferredBlock<T> registerBlock (String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
