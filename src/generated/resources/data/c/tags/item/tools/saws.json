@@ -1,6 +1,10 @@
 {
   "values": [
     "notreepunchingremastered:copper_saw",
-    "notreepunchingremastered:iron_saw"
+    "notreepunchingremastered:golden_saw",
+    "notreepunchingremastered:iron_saw",
+    "notreepunchingremastered:steel_saw",
+    "notreepunchingremastered:diamond_saw",
+    "notreepunchingremastered:netherite_saw"
   ]
 }

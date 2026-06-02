@@ -53,8 +53,20 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.COPPER_KNIFE);
                         output.accept(ModItems.COPPER_SAW);
 
+                        output.accept(ModItems.GOLDEN_KNIFE);
+                        output.accept(ModItems.GOLDEN_SAW);
+
                         output.accept(ModItems.IRON_KNIFE);
                         output.accept(ModItems.IRON_SAW);
+
+                        output.accept(ModItems.STEEL_KNIFE);
+                        output.accept(ModItems.STEEL_SAW);
+
+                        output.accept(ModItems.DIAMOND_KNIFE);
+                        output.accept(ModItems.DIAMOND_SAW);
+
+                        output.accept(ModItems.NETHERITE_KNIFE);
+                        output.accept(ModItems.NETHERITE_SAW);
 
                     }).build());
 

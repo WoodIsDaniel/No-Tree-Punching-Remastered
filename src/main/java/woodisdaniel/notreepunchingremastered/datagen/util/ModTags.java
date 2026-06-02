@@ -33,6 +33,9 @@ public class ModTags {
         public static final TagKey<Item> AXES =
                 ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "tools/axes"));
 
+        public static final TagKey<Item> STEEL_INGOT =
+                ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "ingots/steel"));
+
         public static final TagKey<Item> VESSEL_BLACKLISTED = TagKey.create(
                 net.minecraft.core.registries.Registries.ITEM,
                 net.minecraft.resources.ResourceLocation.fromNamespaceAndPath("notreepunchingremastered", "vessel_blacklisted")

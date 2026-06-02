@@ -2,6 +2,10 @@
   "values": [
     "notreepunchingremastered:flint_knife",
     "notreepunchingremastered:copper_knife",
-    "notreepunchingremastered:iron_knife"
+    "notreepunchingremastered:golden_knife",
+    "notreepunchingremastered:iron_knife",
+    "notreepunchingremastered:steel_knife",
+    "notreepunchingremastered:diamond_knife",
+    "notreepunchingremastered:netherite_knife"
   ]
 }

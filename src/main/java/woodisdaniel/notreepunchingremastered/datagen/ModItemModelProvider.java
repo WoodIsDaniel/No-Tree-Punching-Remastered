@@ -36,8 +36,20 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.COPPER_KNIFE);
         handheldItem(ModItems.COPPER_SAW);
 
+        handheldItem(ModItems.GOLDEN_KNIFE);
+        handheldItem(ModItems.GOLDEN_SAW);
+
         handheldItem(ModItems.IRON_KNIFE);
         handheldItem(ModItems.IRON_SAW);
+
+        handheldItem(ModItems.STEEL_KNIFE);
+        handheldItem(ModItems.STEEL_SAW);
+
+        handheldItem(ModItems.DIAMOND_KNIFE);
+        handheldItem(ModItems.DIAMOND_SAW);
+
+        handheldItem(ModItems.NETHERITE_KNIFE);
+        handheldItem(ModItems.NETHERITE_SAW);
     }
 
     private ItemModelBuilder handheldItem(DeferredItem<?> item) {

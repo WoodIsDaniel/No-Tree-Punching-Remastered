@@ -1,9 +1,9 @@
-// 1.21.1	2026-06-02T15:53:42.1470853	Tags for minecraft:item mod id notreepunchingremastered
+// 1.21.1	2026-06-02T19:59:52.5848994	Tags for minecraft:item mod id notreepunchingremastered
 3d08ecddc65d9dd8810cfc2d9ddec8c727b5cb16 data/c/tags/item/tools/axes.json
-b1a286e77e1a07d15ecebcbd3c42d10f439fedfe data/c/tags/item/tools/knives.json
-c06dc909bdf68f1251b47f1d8919245f0b558a97 data/c/tags/item/tools/saws.json
-28655f872483330172dfaddc139b9a7ef5ec592e data/minecraft/tags/item/axes.json
+09e672552c8bda4d726de464d6dca54a9df42a8d data/c/tags/item/tools/knives.json
+7063f6f05f91c3af466dea13af9361c42b8f2808 data/c/tags/item/tools/saws.json
+194f82ac48301cd41908569079bd65fb4c5d4af9 data/minecraft/tags/item/axes.json
 70385f81c84578d5f5688d3666396fbefb522694 data/minecraft/tags/item/hoes.json
 82cbb3a8c52959fce149d67776dbea1a0a927aa0 data/minecraft/tags/item/pickaxes.json
 e60695de42de63f90dfccc16d4e204769d5acf60 data/minecraft/tags/item/shovels.json
-02cddba1818df96306e58ddd118a34f2c395ce35 data/minecraft/tags/item/swords.json
+2fba6c711c2be793c38f7c1efbfd0d441e45620f data/minecraft/tags/item/swords.json

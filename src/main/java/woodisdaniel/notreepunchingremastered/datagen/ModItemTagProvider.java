@@ -24,11 +24,21 @@ public class ModItemTagProvider extends ItemTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         tag(ModTags.Items.SAWS)
                 .add(ModItems.COPPER_SAW.get())
-                .add(ModItems.IRON_SAW.get());
+                .add(ModItems.GOLDEN_SAW.get())
+                .add(ModItems.IRON_SAW.get())
+                .add(ModItems.STEEL_SAW.get())
+                .add(ModItems.DIAMOND_SAW.get())
+                .add(ModItems.NETHERITE_SAW.get());
+
         tag(ModTags.Items.KNIVES)
                 .add(ModItems.FLINT_KNIFE.get())
                 .add(ModItems.COPPER_KNIFE.get())
-                .add(ModItems.IRON_KNIFE.get());
+                .add(ModItems.GOLDEN_KNIFE.get())
+                .add(ModItems.IRON_KNIFE.get())
+                .add(ModItems.STEEL_KNIFE.get())
+                .add(ModItems.DIAMOND_KNIFE.get())
+                .add(ModItems.NETHERITE_KNIFE.get());
+
         tag(ModTags.Items.AXES)
                 .add(ModItems.FLINT_AXE.get())
                 .add(ModItems.COPPER_AXE.get())
@@ -39,20 +49,21 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
         tag(ItemTags.SWORDS)
                 .add(ModItems.COPPER_SWORD.get())
-                .add(ModItems.FLINT_KNIFE.get())
-                .add(ModItems.COPPER_KNIFE.get())
-                .add(ModItems.IRON_KNIFE.get());
+                .addTag(ModTags.Items.KNIVES);;
+
         tag(ItemTags.PICKAXES)
                 .add(ModItems.FLINT_PICKAXE.get())
                 .add(ModItems.COPPER_PICKAXE.get());
+
         tag(ItemTags.AXES)
                 .add(ModItems.FLINT_AXE.get())
                 .add(ModItems.COPPER_AXE.get())
-                .add(ModItems.COPPER_SAW.get())
-                .add(ModItems.IRON_SAW.get());
+                .addTag(ModTags.Items.SAWS);
+
         tag(ItemTags.SHOVELS)
                 .add(ModItems.FLINT_SHOVEL.get())
                 .add(ModItems.COPPER_SHOVEL.get());
+
         tag(ItemTags.HOES)
                 .add(ModItems.FLINT_HOE.get())
                 .add(ModItems.COPPER_HOE.get());

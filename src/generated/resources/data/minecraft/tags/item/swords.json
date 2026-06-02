@@ -1,8 +1,6 @@
 {
   "values": [
     "notreepunchingremastered:copper_sword",
-    "notreepunchingremastered:flint_knife",
-    "notreepunchingremastered:copper_knife",
-    "notreepunchingremastered:iron_knife"
+    "#c:tools/knives"
   ]
 }

@@ -37,7 +37,7 @@ public class ModItems {
 
     public static final DeferredItem<HoeItem> FLINT_KNIFE = ITEMS.register("flint_knife",
             () -> new HoeItem(ModToolTiers.FLINT, new Item.Properties()
-                    .attributes(HoeItem.createAttributes(ModToolTiers.FLINT, 1F, -0.8f))));
+                    .attributes(HoeItem.createAttributes(ModToolTiers.FLINT, 1.0F, -2.2f))));
 
     public static final DeferredItem<SwordItem> COPPER_SWORD = ITEMS.register("copper_sword",
             () -> new SwordItem(ModToolTiers.COPPER, new Item.Properties()
@@ -57,17 +57,45 @@ public class ModItems {
 
     public static final DeferredItem<AxeItem> COPPER_KNIFE = ITEMS.register("copper_knife",
             () -> new AxeItem(ModToolTiers.COPPER, new Item.Properties()
-                    .attributes(AxeItem.createAttributes(ModToolTiers.COPPER, 0.5F, -0.8f))));
+                    .attributes(AxeItem.createAttributes(ModToolTiers.COPPER, 1.0F, -2.2f))));
     public static final DeferredItem<HoeItem> COPPER_SAW = ITEMS.register("copper_saw",
             () -> new HoeItem(ModToolTiers.COPPER, new Item.Properties()
-                    .attributes(HoeItem.createAttributes(ModToolTiers.COPPER, 6.0F, -3.7f))));
+                    .attributes(HoeItem.createAttributes(ModToolTiers.COPPER, 2.0F, -3.2f))));
+
+    public static final DeferredItem<AxeItem> GOLDEN_KNIFE = ITEMS.register("golden_knife",
+            () -> new AxeItem(Tiers.GOLD, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(Tiers.GOLD, 0.5F, -2.2f))));
+    public static final DeferredItem<HoeItem> GOLDEN_SAW = ITEMS.register("golden_saw",
+            () -> new HoeItem(Tiers.GOLD, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(Tiers.GOLD, 2.0F, -3.2f))));
 
     public static final DeferredItem<AxeItem> IRON_KNIFE = ITEMS.register("iron_knife",
             () -> new AxeItem(Tiers.IRON, new Item.Properties()
-                    .attributes(AxeItem.createAttributes(Tiers.IRON, 0F, -0.8f))));
+                    .attributes(AxeItem.createAttributes(Tiers.IRON, 0.5F, -2.2f))));
     public static final DeferredItem<HoeItem> IRON_SAW = ITEMS.register("iron_saw",
             () -> new HoeItem(Tiers.IRON, new Item.Properties()
-                    .attributes(HoeItem.createAttributes(Tiers.IRON, 6.0F, -3.5f))));
+                    .attributes(HoeItem.createAttributes(Tiers.IRON, 2.0F, -3.2f))));
+
+    public static final DeferredItem<AxeItem> STEEL_KNIFE = ITEMS.register("steel_knife",
+            () -> new AxeItem(ModToolTiers.STEEL, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.STEEL, 1.0F, -2.2f))));
+    public static final DeferredItem<HoeItem> STEEL_SAW = ITEMS.register("steel_saw",
+            () -> new HoeItem(ModToolTiers.STEEL, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.STEEL, 2.5F, -3.2f))));
+
+    public static final DeferredItem<AxeItem> DIAMOND_KNIFE = ITEMS.register("diamond_knife",
+            () -> new AxeItem(Tiers.DIAMOND, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(Tiers.DIAMOND, 1.0F, -2.2f))));
+    public static final DeferredItem<HoeItem> DIAMOND_SAW = ITEMS.register("diamond_saw",
+            () -> new HoeItem(Tiers.DIAMOND, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(Tiers.DIAMOND, 2.0F, -3.2f))));
+
+    public static final DeferredItem<AxeItem> NETHERITE_KNIFE = ITEMS.register("netherite_knife",
+            () -> new AxeItem(Tiers.NETHERITE, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(Tiers.NETHERITE, 1.0F, -2.2f))));
+    public static final DeferredItem<HoeItem> NETHERITE_SAW = ITEMS.register("netherite_saw",
+            () -> new HoeItem(Tiers.NETHERITE, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(Tiers.NETHERITE, 2.0F, -3.2f))));
 
     public static void  register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "notreepunchingremastered:diamond_saw"
+  },
+  "result": {
+    "count": 1,
+    "id": "notreepunchingremastered:netherite_saw"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

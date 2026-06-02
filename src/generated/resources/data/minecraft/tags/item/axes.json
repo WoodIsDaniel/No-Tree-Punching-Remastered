@@ -2,7 +2,6 @@
   "values": [
     "notreepunchingremastered:flint_axe",
     "notreepunchingremastered:copper_axe",
-    "notreepunchingremastered:copper_saw",
-    "notreepunchingremastered:iron_saw"
+    "#c:tools/saws"
   ]
 }
