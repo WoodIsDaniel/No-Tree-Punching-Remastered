@@ -4,7 +4,7 @@
     "#minecraft:is_overworld"
   ],
   "remove": [
-    "#minecraft:is_desert",
+    "minecraft:desert",
     "#minecraft:is_beach",
     "#minecraft:is_badlands"
   ]

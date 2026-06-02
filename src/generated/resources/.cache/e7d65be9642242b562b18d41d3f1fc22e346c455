@@ -1,0 +1,6 @@
+// 1.21.1	2026-06-02T15:53:42.1470853	Tags for minecraft:block mod id notreepunchingremastered
+4b3fec6d60174c9cbb1d0050f1838a502d98fa31 data/c/tags/block/wooden_gates.json
+8354851657b5a4483b70d3275d60ac021f81c0ce data/minecraft/tags/block/needs_stone_tool.json
+3ff1ac59669ee466af5731a39213afee8aeeb915 data/notreepunchingremastered/tags/block/incorrect_for_copper_tool.json
+692e5e8079060e4fa82d274ffd9cb805360b550a data/notreepunchingremastered/tags/block/incorrect_for_flint_tool.json
+a787081967a056e6740d018c2997d1c7c64d3667 data/notreepunchingremastered/tags/block/incorrect_for_steel_tool.json

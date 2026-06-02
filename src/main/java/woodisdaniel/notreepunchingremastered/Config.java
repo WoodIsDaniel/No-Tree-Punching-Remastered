@@ -11,18 +11,9 @@ import net.neoforged.neoforge.common.ModConfigSpec;
 public class Config {
     private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
 
-    public static final ModConfigSpec.BooleanValue ROCK_GENERATION = BUILDER
-            .comment("If false, this will disable surface rock world gen.")
-            .define("looseRocksGeneration", true);
-
-    public static final ModConfigSpec.IntValue ROCK_SPAWN_RATE = BUILDER
-            .comment("Frequency of loose rocks in the world")
-            .defineInRange("looseRocksFrequency", 10, 0, Integer.MAX_VALUE);
-
-    // a list of strings that are treated as resource locations for items
-    //public static final ModConfigSpec.ConfigValue<List<? extends String>> ITEM_STRINGS = BUILDER
-    //        .comment("A list of items to log on common setup.")
-    //        .defineListAllowEmpty("items", List.of("minecraft:iron_ingot"), () -> "", Config::validateItemName);
+    public static final ModConfigSpec.BooleanValue DISABLE_TIMBERHANDLER = BUILDER
+            .comment("If true, this will enable you to mine wood with your hand ")
+            .define("Disable Timber Handler", false);
 
     static final ModConfigSpec SPEC = BUILDER.build();
 

@@ -9,6 +9,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
+import woodisdaniel.notreepunchingremastered.Config;
 import woodisdaniel.notreepunchingremastered.NoTreePunchingRemastered;
 
 @EventBusSubscriber(modid = NoTreePunchingRemastered.MOD_ID)
@@ -29,6 +30,9 @@ public class TimberHandler {
 
     @SubscribeEvent
     public static void onBreakSpeed(PlayerEvent.BreakSpeed event) {
+
+        if (Config.DISABLE_TIMBERHANDLER.get()) return;
+
         BlockState state = event.getState();
         Player player = event.getEntity();
 
@@ -46,6 +50,9 @@ public class TimberHandler {
 
     @SubscribeEvent
     public static void onHarvestCheck(PlayerEvent.HarvestCheck event) {
+
+        if (Config.DISABLE_TIMBERHANDLER.get()) return;
+
         BlockState state = event.getTargetBlock();
         Player player = event.getEntity();
 

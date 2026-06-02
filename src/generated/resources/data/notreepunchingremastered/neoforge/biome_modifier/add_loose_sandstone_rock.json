@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#notreepunchingremastered:has_sandstone_rock",
+  "features": "notreepunchingremastered:loose_sandstone_rock_placed",
+  "step": "vegetal_decoration"
+}

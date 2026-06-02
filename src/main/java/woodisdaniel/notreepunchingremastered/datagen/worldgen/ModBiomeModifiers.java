@@ -40,9 +40,6 @@ public class ModBiomeModifiers {
                 biomes.getOrThrow(ModTags.Worldgen.Biomes.HAS_RED_SANDSTONE_ROCK),
                 HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.LOOSE_RED_SANDSTONE_ROCK_PLACED_KEY)),
                 GenerationStep.Decoration.VEGETAL_DECORATION));
-
-
-
     }
 
     private static ResourceKey<BiomeModifier> registerKey(String name) {

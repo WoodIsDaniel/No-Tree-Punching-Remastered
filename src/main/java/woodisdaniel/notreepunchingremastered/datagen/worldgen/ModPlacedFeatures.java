@@ -10,6 +10,7 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.placement.*;
+import woodisdaniel.notreepunchingremastered.Config;
 import woodisdaniel.notreepunchingremastered.NoTreePunchingRemastered;
 
 import java.util.List;
