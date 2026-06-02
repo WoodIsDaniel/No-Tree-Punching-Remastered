@@ -21,8 +21,6 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-        //tag(BlockTags.MINEABLE_WITH_PICKAXE)
-        //       .add(ModBlocks.TIN_ORE.get());
 
         tag(ModTags.Blocks.INCORRECT_FOR_FLINT_TOOL)
                 .addTag(INCORRECT_FOR_WOODEN_TOOL);
@@ -30,6 +28,10 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(ModTags.Blocks.INCORRECT_FOR_COPPER_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_STONE_TOOL)
                 .remove(NEEDS_STONE_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_STEEL_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(NEEDS_IRON_TOOL);
 
         tag(BlockTags.NEEDS_STONE_TOOL)
                 .remove(Blocks.COPPER_ORE)

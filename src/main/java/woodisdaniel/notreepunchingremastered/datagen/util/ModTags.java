@@ -1,5 +1,7 @@
 package woodisdaniel.notreepunchingremastered.datagen.util;
 
+import net.minecraft.core.registries.Registries;
+import net.minecraft.world.level.biome.Biome;
 import woodisdaniel.notreepunchingremastered.NoTreePunchingRemastered;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
@@ -13,6 +15,7 @@ public class ModTags {
 
         public static final TagKey<Block> INCORRECT_FOR_FLINT_TOOL = createTag("incorrect_for_flint_tool");
         public static final TagKey<Block> INCORRECT_FOR_COPPER_TOOL = createTag("incorrect_for_copper_tool");
+        public static final TagKey<Block> INCORRECT_FOR_STEEL_TOOL = createTag("incorrect_for_steel_tool");
 
         public static final TagKey<Block> WOODEN_GATES =
                 BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "wooden_gates"));
@@ -34,5 +37,24 @@ public class ModTags {
                 net.minecraft.core.registries.Registries.ITEM,
                 net.minecraft.resources.ResourceLocation.fromNamespaceAndPath("notreepunchingremastered", "vessel_blacklisted")
         );
+    }
+
+    public static class Worldgen {
+        public static class Biomes {
+            public static final TagKey<Biome> HAS_STONE_ROCK = TagKey.create(
+                    Registries.BIOME,
+                    ResourceLocation.fromNamespaceAndPath(NoTreePunchingRemastered.MOD_ID, "has_stone_rock")
+            );
+
+            public static final TagKey<Biome> HAS_SANDSTONE_ROCK = TagKey.create(
+                    Registries.BIOME,
+                    ResourceLocation.fromNamespaceAndPath(NoTreePunchingRemastered.MOD_ID, "has_sandstone_rock")
+            );
+
+            public static final TagKey<Biome> HAS_RED_SANDSTONE_ROCK = TagKey.create(
+                    Registries.BIOME,
+                    ResourceLocation.fromNamespaceAndPath(NoTreePunchingRemastered.MOD_ID, "has_red_sandstone_rock")
+            );
+        }
     }
 }

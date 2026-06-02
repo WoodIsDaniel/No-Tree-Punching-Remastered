@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_overworld"
+  ],
+  "remove": [
+    "#minecraft:is_desert",
+    "#minecraft:is_beach",
+    "#minecraft:is_badlands"
+  ]
+}
