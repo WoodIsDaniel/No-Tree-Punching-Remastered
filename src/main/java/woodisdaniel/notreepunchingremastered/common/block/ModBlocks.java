@@ -17,14 +17,6 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(NoTreePunchingRemastered.MOD_ID);
 
-    public static final DeferredBlock<Block> TIN_ORE = registerBlock("tin_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-
-    public static final DeferredBlock<Block> DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
-
     public static final DeferredBlock<Block> STONE_ROCK = registerBlock("stone_rock",
             () -> new LooseRocks(BlockBehaviour.Properties.of().sound(SoundType.STONE)));
 
