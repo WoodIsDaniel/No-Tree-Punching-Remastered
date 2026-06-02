@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "notreepunchingremastered:copper_sword"
+    },
+    {
+      "item": "notreepunchingremastered:copper_pickaxe"
+    },
+    {
+      "item": "notreepunchingremastered:copper_axe"
+    },
+    {
+      "item": "notreepunchingremastered:copper_shovel"
+    },
+    {
+      "item": "notreepunchingremastered:copper_hoe"
+    },
+    {
+      "item": "notreepunchingremastered:copper_knife"
+    },
+    {
+      "item": "notreepunchingremastered:copper_saw"
+    }
+  ],
+  "result": {
+    "id": "create:copper_nugget"
+  }
+}

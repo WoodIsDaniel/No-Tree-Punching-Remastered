@@ -20,6 +20,9 @@ public class ModTags {
         public static final TagKey<Block> WOODEN_GATES =
                 BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "wooden_gates"));
 
+        public static final TagKey<Block> LEAVES =
+                BlockTags.create(ResourceLocation.fromNamespaceAndPath("minecraft", "leaves"));
+
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(NoTreePunchingRemastered.MOD_ID, name));
         }

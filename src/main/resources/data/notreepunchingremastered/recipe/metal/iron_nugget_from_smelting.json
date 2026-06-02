@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "notreepunchingremastered:iron_knife"
+    },
+    {
+      "item": "notreepunchingremastered:iron_saw"
+    }
+  ],
+  "result": {
+    "id": "minecraft:iron_nugget"
+  }
+}

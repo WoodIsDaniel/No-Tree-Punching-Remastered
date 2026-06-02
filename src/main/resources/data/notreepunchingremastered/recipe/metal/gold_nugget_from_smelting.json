@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "notreepunchingremastered:golden_knife"
+    },
+    {
+      "item": "notreepunchingremastered:golden_saw"
+    }
+  ],
+  "result": {
+    "id": "minecraft:gold_nugget"
+  }
+}
