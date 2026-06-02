@@ -40,20 +40,6 @@ public class FiberDropHandler {
 
                         Block.popResource(level, pos, new ItemStack(ModItems.GRASS_FIBER.get(), amount));
                     }
-
-
-/*
-                    ItemStack fiber = new ItemStack(ModItems.GRASS_FIBER.get(), (int)(Math.random() * 50 + 1));
-
-                    net.minecraft.world.entity.item.ItemEntity itemEntity = new net.minecraft.world.entity.item.ItemEntity(
-                            level,
-                            pos.getX() + 0.5,
-                            pos.getY() + 0.5,
-                            pos.getZ() + 0.5,
-                            fiber
-                    );
-                    level.addFreshEntity(itemEntity);
-*/
                 }
             }
         }
