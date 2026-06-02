@@ -7,7 +7,6 @@ import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.levelgen.Heightmap;
-import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.placement.*;
@@ -16,8 +15,6 @@ import woodisdaniel.notreepunchingremastered.NoTreePunchingRemastered;
 import java.util.List;
 
 public class ModPlacedFeatures {
-    public static final ResourceKey<PlacedFeature> TIN_ORE_PLACED_KEY = registerKey("tin_ore_placed");
-
     public static final ResourceKey<PlacedFeature> LOOSE_STONE_ROCK_PLACED_KEY = registerKey("loose_stone_rock_placed");
 
     public static final ResourceKey<PlacedFeature> LOOSE_SANDSTONE_ROCK_PLACED_KEY = registerKey("loose_sandstone_rock_placed");
@@ -26,9 +23,6 @@ public class ModPlacedFeatures {
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
-
-        register(context, TIN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_TIN_ORE_KEY),
-                ModOrePlacement.commonOrePlacement(6, HeightRangePlacement.uniform(VerticalAnchor.absolute(30), VerticalAnchor.absolute(75))));
 
         register(context, LOOSE_STONE_ROCK_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.LOOSE_STONE_ROCK_KEY),
                 List.of(

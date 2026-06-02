@@ -15,7 +15,6 @@ import woodisdaniel.notreepunchingremastered.NoTreePunchingRemastered;
 import woodisdaniel.notreepunchingremastered.datagen.util.ModTags;
 
 public class ModBiomeModifiers {
-    public static final ResourceKey<BiomeModifier> ADD_TIN_ORE = registerKey("add_tin_ore");
 
     public static final ResourceKey<BiomeModifier> ADD_LOOSE_STONE_ROCK = registerKey("add_loose_stone_rock");
 
@@ -26,11 +25,6 @@ public class ModBiomeModifiers {
     public static void bootstrap(BootstrapContext<BiomeModifier> context) {
         var placedFeatures = context.lookup(Registries.PLACED_FEATURE);
         var biomes = context.lookup(Registries.BIOME);
-
-        context.register(ADD_TIN_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
-                biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.TIN_ORE_PLACED_KEY)),
-                GenerationStep.Decoration.UNDERGROUND_ORES));
 
         context.register(ADD_LOOSE_STONE_ROCK, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(ModTags.Worldgen.Biomes.HAS_STONE_ROCK),

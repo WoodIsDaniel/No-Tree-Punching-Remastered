@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "notreepunchingremastered:item/tool/copper_pickaxe"
-  }
-}

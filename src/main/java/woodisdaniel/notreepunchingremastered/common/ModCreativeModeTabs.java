@@ -21,9 +21,6 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.notreepunchingremastered.notreepunching_misc_items"))
                     .displayItems((itemDisplayParameters, output) -> {
 
-                        output.accept(ModBlocks.TIN_ORE);
-                        output.accept(ModBlocks.DEEPSLATE_TIN_ORE);
-
                         output.accept(ModBlocks.STONE_ROCK);
                         output.accept(ModBlocks.SANDSTONE_ROCK);
                         output.accept(ModBlocks.RED_SANDSTONE_ROCK);
