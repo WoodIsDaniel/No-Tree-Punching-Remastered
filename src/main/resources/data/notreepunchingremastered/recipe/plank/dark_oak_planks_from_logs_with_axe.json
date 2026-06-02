@@ -1,17 +1,13 @@
 {
-  "type": "notreepunchingremastered:damage_tool_shaped",
+  "type": "notreepunchingremastered:damage_tool_shapeless",
   "category": "misc",
-  "key": {
-    "#": {
+  "ingredients": [
+    {
       "tag": "c:tools/axes"
     },
-    "X": {
+    {
       "tag": "minecraft:dark_oak_logs"
     }
-  },
-  "pattern": [
-    "#",
-    "X"
   ],
   "result": {
     "count": 2,

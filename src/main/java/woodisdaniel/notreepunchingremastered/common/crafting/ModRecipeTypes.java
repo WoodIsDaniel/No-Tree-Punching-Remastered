@@ -8,6 +8,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import woodisdaniel.notreepunchingremastered.NoTreePunchingRemastered;
 import woodisdaniel.notreepunchingremastered.common.crafting.serializer.DamageToolShapedSerializer;
+import woodisdaniel.notreepunchingremastered.common.crafting.serializer.DamageToolShapelessSerializer;
 
 public class ModRecipeTypes {
     public static final DeferredRegister<RecipeSerializer<?>> SERIALIZERS =
@@ -18,6 +19,9 @@ public class ModRecipeTypes {
 
     public static final DeferredHolder<RecipeSerializer<?>, DamageToolShapedSerializer> DAMAGE_TOOL_SHAPED_SERIALIZER =
             SERIALIZERS.register("damage_tool_shaped", DamageToolShapedSerializer::new);
+
+    public static final DeferredHolder<RecipeSerializer<?>, DamageToolShapelessSerializer> DAMAGE_TOOL_SHAPELESS_SERIALIZER =
+            SERIALIZERS.register("damage_tool_shapeless", DamageToolShapelessSerializer::new);
 
     public static void register(IEventBus eventBus) {
         SERIALIZERS.register(eventBus);
