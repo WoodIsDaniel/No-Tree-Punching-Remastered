@@ -4,9 +4,10 @@ license="GPL-3.0 License"
 
 [[mods]]
 modId="notreepunchingremastered"
-version="1.0"
+version="1.1"
 displayName="No Tree Punching Remastered"
 authors="WoodIsDaniel"
+credit="alcatrazEscapee"
 description='''
 No Tree Punching for 1.21.1.
 Batteries not included.
