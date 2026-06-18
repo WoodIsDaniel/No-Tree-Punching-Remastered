@@ -1,5 +1,6 @@
 package woodisdaniel.notreepunchingremastered.datagen;
 
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 import woodisdaniel.notreepunchingremastered.NoTreePunchingRemastered;
 import woodisdaniel.notreepunchingremastered.common.item.ModItems;
@@ -45,7 +46,8 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(Items.GOLDEN_AXE)
                 .add(Items.IRON_AXE)
                 .add(Items.DIAMOND_AXE)
-                .add(Items.NETHERITE_AXE);
+                .add(Items.NETHERITE_AXE)
+                .addOptional(ResourceLocation.fromNamespaceAndPath("immersiveengineering", "axe_steel"));
 
         tag(ItemTags.SWORDS)
                 .add(ModItems.COPPER_SWORD.get())

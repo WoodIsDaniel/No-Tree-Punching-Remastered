@@ -5,6 +5,10 @@
     "minecraft:golden_axe",
     "minecraft:iron_axe",
     "minecraft:diamond_axe",
-    "minecraft:netherite_axe"
+    "minecraft:netherite_axe",
+    {
+      "id": "immersiveengineering:axe_steel",
+      "required": false
+    }
   ]
 }

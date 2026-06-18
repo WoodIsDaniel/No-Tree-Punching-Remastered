@@ -23,7 +23,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
 
         tag(ModTags.Blocks.INCORRECT_FOR_FLINT_TOOL)
-                .addTag(INCORRECT_FOR_WOODEN_TOOL);
+                .addTag(INCORRECT_FOR_WOODEN_TOOL)
+                .remove(Blocks.COPPER_ORE)
+                .remove(Blocks.DEEPSLATE_COPPER_ORE);
 
         tag(ModTags.Blocks.INCORRECT_FOR_COPPER_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_STONE_TOOL)
@@ -32,10 +34,6 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(ModTags.Blocks.INCORRECT_FOR_STEEL_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
                 .remove(NEEDS_IRON_TOOL);
-
-        tag(BlockTags.NEEDS_STONE_TOOL)
-                .remove(Blocks.COPPER_ORE)
-                .remove(Blocks.DEEPSLATE_COPPER_ORE);
 
         tag(ModTags.Blocks.WOODEN_GATES)
                 .add(Blocks.OAK_FENCE_GATE)
