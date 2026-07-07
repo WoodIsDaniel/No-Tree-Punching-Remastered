@@ -9,7 +9,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
-import woodisdaniel.notreepunchingremastered.common.gui.VesselMenu;
+import woodisdaniel.notreepunchingremastered.gui.menu.VesselMenu;
 
 public class VesselItem extends Item {
 
@@ -23,12 +23,12 @@ public class VesselItem extends Item {
 
         if (!level.isClientSide && player instanceof ServerPlayer serverPlayer) {
             serverPlayer.openMenu(new SimpleMenuProvider(
-                    // Create the menu on the server
+
                     (pContainerId, pPlayerInventory, pPlayer) -> new VesselMenu(pContainerId, pPlayerInventory, stack),
-                    // Title
+
                     Component.literal("Ceramic Vessel")
             ), (buf) -> {
-                // Send the item stack to the client so it knows what to display
+
                 ItemStack.STREAM_CODEC.encode(buf, stack);
             });
         }

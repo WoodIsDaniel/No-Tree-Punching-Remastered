@@ -1,5 +1,6 @@
-// 1.21.1	2026-06-19T00:51:02.7513256	Tags for minecraft:block mod id notreepunchingremastered
-4b3fec6d60174c9cbb1d0050f1838a502d98fa31 data/c/tags/block/wooden_gates.json
+// 1.21.1	2026-07-03T17:17:35.1870846	Tags for minecraft:block mod id notreepunchingremastered
+4b3fec6d60174c9cbb1d0050f1838a502d98fa31 data/c/tags/block/wooden_fence_gates.json
 3ff1ac59669ee466af5731a39213afee8aeeb915 data/notreepunchingremastered/tags/block/incorrect_for_copper_tool.json
 f08fae47c36ed5fd7c7b89cd49217f970439a73c data/notreepunchingremastered/tags/block/incorrect_for_flint_tool.json
 a787081967a056e6740d018c2997d1c7c64d3667 data/notreepunchingremastered/tags/block/incorrect_for_steel_tool.json
+409141f8aa97624944cd82d2b6a5a3cb05ebddf8 data/notreepunchingremastered/tags/block/wooden.json

@@ -10,8 +10,8 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.placement.*;
-import woodisdaniel.notreepunchingremastered.Config;
 import woodisdaniel.notreepunchingremastered.NoTreePunchingRemastered;
+import woodisdaniel.notreepunchingremastered.datagen.util.ModTags;
 
 import java.util.List;
 
@@ -33,7 +33,10 @@ public class ModPlacedFeatures {
                         BlockPredicateFilter.forPredicate(
                                 BlockPredicate.allOf(
                                         BlockPredicate.ONLY_IN_AIR_PREDICATE,
-                                        BlockPredicate.solid(new BlockPos(0, -1, 0))
+                                        BlockPredicate.solid(new BlockPos(0, -1, 0)),
+                                        BlockPredicate.not(
+                                                BlockPredicate.matchesTag(new BlockPos(0, -1, 0), ModTags.Blocks.WOODEN)
+                                        )
                                 )
                         ),
                         BiomeFilter.biome()
@@ -47,7 +50,10 @@ public class ModPlacedFeatures {
                         BlockPredicateFilter.forPredicate(
                                 BlockPredicate.allOf(
                                         BlockPredicate.ONLY_IN_AIR_PREDICATE,
-                                        BlockPredicate.solid(new BlockPos(0, -1, 0))
+                                        BlockPredicate.solid(new BlockPos(0, -1, 0)),
+                                        BlockPredicate.not(
+                                                BlockPredicate.matchesTag(new BlockPos(0, -1, 0), ModTags.Blocks.WOODEN)
+                                        )
                                 )
                         ),
                         BiomeFilter.biome()
@@ -61,9 +67,13 @@ public class ModPlacedFeatures {
                         BlockPredicateFilter.forPredicate(
                                 BlockPredicate.allOf(
                                         BlockPredicate.ONLY_IN_AIR_PREDICATE,
-                                        BlockPredicate.solid(new BlockPos(0, -1, 0))
+                                        BlockPredicate.solid(new BlockPos(0, -1, 0)),
+                                        BlockPredicate.not(
+                                                BlockPredicate.matchesTag(new BlockPos(0, -1, 0), ModTags.Blocks.WOODEN)
+                                        )
                                 )
                         ),
+
                         BiomeFilter.biome()
                 ));
     }

@@ -1,4 +1,4 @@
-package woodisdaniel.notreepunchingremastered.common.gui;
+package woodisdaniel.notreepunchingremastered.gui.menu;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.inventory.AbstractContainerMenu;

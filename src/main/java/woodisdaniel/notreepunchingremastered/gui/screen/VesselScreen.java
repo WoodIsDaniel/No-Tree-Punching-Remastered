@@ -1,4 +1,4 @@
-package woodisdaniel.notreepunchingremastered.client.gui;
+package woodisdaniel.notreepunchingremastered.gui.screen;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.gui.GuiGraphics;
@@ -7,7 +7,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Inventory;
 import woodisdaniel.notreepunchingremastered.NoTreePunchingRemastered;
-import woodisdaniel.notreepunchingremastered.common.gui.VesselMenu;
+import woodisdaniel.notreepunchingremastered.gui.menu.VesselMenu;
 
 public class VesselScreen extends AbstractContainerScreen<VesselMenu> {
 

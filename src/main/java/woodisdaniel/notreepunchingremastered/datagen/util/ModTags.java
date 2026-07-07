@@ -17,11 +17,12 @@ public class ModTags {
         public static final TagKey<Block> INCORRECT_FOR_COPPER_TOOL = createTag("incorrect_for_copper_tool");
         public static final TagKey<Block> INCORRECT_FOR_STEEL_TOOL = createTag("incorrect_for_steel_tool");
 
-        public static final TagKey<Block> WOODEN_GATES =
-                BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "wooden_gates"));
+        // Used for TimberHandler & Loose Rock WorldGen.
+        public static final TagKey<Block> WOODEN =
+                BlockTags.create(ResourceLocation.fromNamespaceAndPath("notreepunchingremastered", "wooden"));
 
-        public static final TagKey<Block> LEAVES =
-                BlockTags.create(ResourceLocation.fromNamespaceAndPath("minecraft", "leaves"));
+        public static final TagKey<Block> WOODEN_FENCE_GATES =
+                BlockTags.create(ResourceLocation.fromNamespaceAndPath("c", "wooden_fence_gates"));
 
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(NoTreePunchingRemastered.MOD_ID, name));

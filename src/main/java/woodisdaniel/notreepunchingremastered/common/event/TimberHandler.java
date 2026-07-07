@@ -11,22 +11,13 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 import woodisdaniel.notreepunchingremastered.Config;
 import woodisdaniel.notreepunchingremastered.NoTreePunchingRemastered;
+import woodisdaniel.notreepunchingremastered.datagen.util.ModTags;
 
 @EventBusSubscriber(modid = NoTreePunchingRemastered.MOD_ID)
 public class TimberHandler {
 
     private static boolean isLogOrPlank(BlockState state) {
-        return state.is(BlockTags.create(ResourceLocation.parse("minecraft:logs"))) ||
-                state.is(BlockTags.create(ResourceLocation.parse("minecraft:planks"))) ||
-                state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_slabs"))) ||
-                state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_stairs"))) ||
-                state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_trapdoors"))) ||
-                state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_pressure_plates"))) ||
-                state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_fences"))) ||
-                state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_doors"))) ||
-                state.is(BlockTags.create(ResourceLocation.parse("minecraft:wooden_buttons"))) ||
-                state.is(BlockTags.create(ResourceLocation.parse("c:wooden_gates"))) ||
-                state.is(BlockTags.create(ResourceLocation.parse("notreepunchingremastered:misc_wooden_block")));
+        return state.is(ModTags.Blocks.WOODEN);
     }
 
     @SubscribeEvent
