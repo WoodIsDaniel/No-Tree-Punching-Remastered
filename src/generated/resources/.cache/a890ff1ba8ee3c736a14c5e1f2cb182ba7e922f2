@@ -1,9 +1,0 @@
-// 1.21.1	2026-06-19T01:07:09.295772	Tags for minecraft:item mod id notreepunchingremastered
-1b986d85b7b060d197bd4266d43796de03203403 data/c/tags/item/tools/axes.json
-09e672552c8bda4d726de464d6dca54a9df42a8d data/c/tags/item/tools/knives.json
-7063f6f05f91c3af466dea13af9361c42b8f2808 data/c/tags/item/tools/saws.json
-194f82ac48301cd41908569079bd65fb4c5d4af9 data/minecraft/tags/item/axes.json
-70385f81c84578d5f5688d3666396fbefb522694 data/minecraft/tags/item/hoes.json
-82cbb3a8c52959fce149d67776dbea1a0a927aa0 data/minecraft/tags/item/pickaxes.json
-e60695de42de63f90dfccc16d4e204769d5acf60 data/minecraft/tags/item/shovels.json
-2fba6c711c2be793c38f7c1efbfd0d441e45620f data/minecraft/tags/item/swords.json

@@ -1,41 +1,13 @@
 {
-  "creativetab.notreepunchingremastered.notreepunching_misc_items": "NTP Misc",
-  "creativetab.notreepunchingremastered.notreepunching_tool_items": "NTP Tools",
-  "item.notreepunchingremastered.grass_fiber": "Grass Fiber",
-  "item.notreepunchingremastered.plant_string": "Plant String",
-  "item.notreepunchingremastered.flint_shard": "Flint Shard",
-  "item.notreepunchingremastered.flint_pickaxe": "Flint Pickaxe",
-  "item.notreepunchingremastered.flint_axe": "Flint Axe",
-  "item.notreepunchingremastered.flint_shovel": "Flint Shovel",
-  "item.notreepunchingremastered.flint_hoe": "Flint Hoe",
-  "item.notreepunchingremastered.flint_knife": "Flint Knife",
-  "item.notreepunchingremastered.copper_sword": "Copper Sword",
-  "item.notreepunchingremastered.copper_pickaxe": "Copper Pickaxe",
-  "item.notreepunchingremastered.copper_axe": "Copper Axe",
-  "item.notreepunchingremastered.copper_shovel": "Copper Shovel",
-  "item.notreepunchingremastered.copper_hoe": "Copper Hoe",
-  "item.notreepunchingremastered.copper_knife": "Copper Knife",
-  "item.notreepunchingremastered.copper_saw": "Copper Saw",
-  "item.notreepunchingremastered.golden_knife": "Golden Knife",
-  "item.notreepunchingremastered.golden_saw": "Golden Saw",
-  "item.notreepunchingremastered.iron_knife": "Iron Knife",
-  "item.notreepunchingremastered.iron_saw": "Iron Saw",
-  "item.notreepunchingremastered.steel_knife": "Steel Knife",
-  "item.notreepunchingremastered.steel_saw": "Steel Saw",
-  "item.notreepunchingremastered.diamond_knife": "Diamond Knife",
-  "item.notreepunchingremastered.diamond_saw": "Diamond Saw",
-  "item.notreepunchingremastered.netherite_knife": "Netherite Knife",
-  "item.notreepunchingremastered.netherite_saw": "Netherite Saw",
+  "itemGroup.elvenlands": "Example Mod Tab",
+  "block.elvenlands.example_block": "Example Block",
+  "item.elvenlands.example_item": "Example Item",
 
-
-
-
-
-
-
-  "item.notreepunchingremastered.clay_vessel": "Clay Vessel",
-  "item.notreepunchingremastered.ceramic_vessel": "Ceramic Vessel",
-  "block.notreepunchingremastered.stone_rock": "Rock",
-  "block.notreepunchingremastered.sandstone_rock": "Sandstone Rock",
-  "block.notreepunchingremastered.red_sandstone_rock": "Red Sandstone Rock"
+  "elvenlands.configuration.title": "Elven Lands Configs",
+  "elvenlands.configuration.section.elvenlands.common.toml": "Elven Lands Configs",
+  "elvenlands.configuration.section.elvenlands.common.toml.title": "Elven Lands Configs",
+  "elvenlands.configuration.items": "Item List",
+  "elvenlands.configuration.logDirtBlock": "Log Dirt Block",
+  "elvenlands.configuration.magicNumberIntroduction": "Magic Number Text",
+  "elvenlands.configuration.magicNumber": "Magic Number"
 }
